@@ -1,11 +1,10 @@
-const http = require('http');
+const restify = require('restify')
 const port = process.env.PORT || 3000
+const server = restify.createServer()
 
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/html');
-  res.end('<h1>Hello World</h1>');
-});
+server.get('/', (req, res) => {
+  res.send('Ae! Servidor criado veio com resposta para o path /.')
+})
 
 server.listen(port,() => {
   console.log(`Server running at port `+port);
