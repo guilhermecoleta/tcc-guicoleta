@@ -1,0 +1,17 @@
+{
+  "name": "servidor-rest",
+  "version": "1.0.0",
+  "description": "Projeto que estou criando pra deixar de exemplo para um post no medium",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "restify"
+  ],
+  "author": "Marco Bruno",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "restify": "^6.3.4"
+  }
+}
