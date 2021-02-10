@@ -1,18 +1,19 @@
 {
-  "name": "servidor-rest",
+  "name": "coolnodeapp",
   "version": "1.0.0",
-  "description": "Projeto que estou criando pra deixar de exemplo para um post no medium",
+  "description": "node app ",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "restify"
-  ],
-  "author": "Marco Bruno",
-  "license": "MPL-2.0",
-  "dependencies": {
-    "restify": "^6.3.4"
-  }
+  "start": "node index.js"
+},
+  "repository": {
+  "type": "git",
+  "url": ""
+},
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+  "url": ""
+},
+  "homepage": ""
 }
