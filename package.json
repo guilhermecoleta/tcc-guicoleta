@@ -4,16 +4,19 @@
   "description": "node app ",
   "main": "index.js",
   "scripts": {
-  "start": "node index.js"
-},
+    "start": "node index.js"
+  },
   "repository": {
-  "type": "git",
-  "url": ""
-},
+    "type": "git",
+    "url": ""
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
-  "url": ""
-},
-  "homepage": ""
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "restify": "^8.5.1"
+  }
 }
