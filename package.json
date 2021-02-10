@@ -4,6 +4,7 @@
   "description": "Projeto que estou criando pra deixar de exemplo para um post no medium",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
